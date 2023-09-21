@@ -56,3 +56,47 @@ func (w *Watch) setWatchPrice(price float64) {
 func (w *Watch) getWatchPrice() float64 {
 	return w.price
 }
+
+type Xiaomi12 struct {
+	Phone
+}
+
+func NewXiaomi12() IPhone {
+	return &Phone{
+		name:  "xiaomi 12",
+		price: 3999,
+	}
+}
+
+type MiWatch struct {
+	Watch
+}
+
+func NewMiWatch() IWatch {
+	return &Watch{
+		name:  "miWatch",
+		price: 299,
+	}
+}
+
+type HuaweiMeta60 struct {
+	Phone
+}
+
+func NewHuaweiMeta60() IPhone {
+	return &Phone{
+		name:  "Meta 60",
+		price: 6999,
+	}
+}
+
+type HuaweiWatch struct {
+	Watch
+}
+
+func NewHuaweiWatch() IWatch {
+	return &Watch{
+		name:  "huawei watch",
+		price: 2999,
+	}
+}

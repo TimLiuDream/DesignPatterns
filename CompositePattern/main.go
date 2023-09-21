@@ -1,5 +1,6 @@
 package main
 
+// 组合模式
 func main() {
 	file1 := &File{name: "File1"}
 	file2 := &File{name: "File2"}

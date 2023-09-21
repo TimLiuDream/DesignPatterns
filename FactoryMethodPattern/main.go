@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 工厂方法模式
 func main() {
 	xiaomi, err := getPhone("xiaomi")
 	if err != nil {

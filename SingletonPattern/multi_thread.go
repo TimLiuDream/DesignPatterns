@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"sync"
+	"time"
 )
 
 var lock = &sync.Mutex{}
@@ -34,5 +35,5 @@ func multiThreadSafe() {
 			}
 		}()
 	}
-	select {}
+	time.Sleep(10 * time.Second)
 }

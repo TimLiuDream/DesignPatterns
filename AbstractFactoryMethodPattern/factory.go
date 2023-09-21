@@ -20,31 +20,19 @@ func GetFactory(tp string) IFactory {
 type Xiaomi struct{}
 
 func (x *Xiaomi) makePhone() IPhone {
-	return &Phone{
-		name:  "xiaomi 12",
-		price: 3999,
-	}
+	return NewXiaomi12()
 }
 
 func (x *Xiaomi) makeWatch() IWatch {
-	return &Watch{
-		name:  "miWatch",
-		price: 299,
-	}
+	return NewMiWatch()
 }
 
 type Huawei struct{}
 
 func (h *Huawei) makePhone() IPhone {
-	return &Phone{
-		name:  "iPhone 14",
-		price: 6999,
-	}
+	return NewHuaweiMeta60()
 }
 
 func (h *Huawei) makeWatch() IWatch {
-	return &Watch{
-		name:  "apple watch",
-		price: 2999,
-	}
+	return NewHuaweiWatch()
 }

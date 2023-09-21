@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 抽象工厂方法模式
 func main() {
 	xiaomiFactory := GetFactory("xiaomi")
 	xiaomiPhone := xiaomiFactory.makePhone()

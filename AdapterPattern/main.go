@@ -1,5 +1,6 @@
 package main
 
+// 适配器模式
 func main() {
 	client := &Client{}
 	mac := &Mac{}

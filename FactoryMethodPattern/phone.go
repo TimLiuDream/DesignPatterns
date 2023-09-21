@@ -1,5 +1,6 @@
 package main
 
+// 抽象出来的 phone 基类，子类（xiaomi、huawei）使用组合的方式可替代基类的行为
 type Phone struct {
 	name  string
 	price float64

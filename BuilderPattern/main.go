@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 生成器模式
 func main() {
 	normalBuilder := getBuilder("normal")
 	villaBuilder := getBuilder("villa")
