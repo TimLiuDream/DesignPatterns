@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 访问者模式
 func main() {
 	square := &Square{side: 2}
 	circle := &Circle{radius: 3}

@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
+// 备忘录模式
 func main() {
-
 	caretaker := &Caretaker{
 		mementoArray: make([]*Memento, 0),
 	}
@@ -28,5 +28,4 @@ func main() {
 
 	originator.restoreMemento(caretaker.getMemento(0))
 	fmt.Printf("Restored to State: %s\n", originator.getState())
-
 }
