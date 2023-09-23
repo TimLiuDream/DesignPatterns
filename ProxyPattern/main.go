@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 代理模式
 func main() {
 	nginxServer := newNginxServer()
 	appStatusURL := "/app/status"

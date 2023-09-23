@@ -1,5 +1,6 @@
 package main
 
+// 中介者模式
 func main() {
 	stationManager := newStationManger()
 

@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 享元模式
 func main() {
 	game := newGame()
 

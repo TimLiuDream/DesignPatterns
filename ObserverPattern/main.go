@@ -5,6 +5,7 @@ var (
 	_ Subject = (*PeopleSubject)(nil)
 )
 
+// 观察者模式
 func main() {
 	s := new(PeopleSubject)
 	s.RegisterObserver("angle", new(AngelObserver))

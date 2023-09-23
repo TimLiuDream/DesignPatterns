@@ -1,5 +1,6 @@
 package main
 
+// 策略模式
 func main() {
 	lfu := &Lfu{}
 	cache := initCache(lfu)

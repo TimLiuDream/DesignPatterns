@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 迭代器模式
 func main() {
 	user1 := &User{
 		name: "a",

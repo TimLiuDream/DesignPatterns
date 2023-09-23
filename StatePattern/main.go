@@ -5,6 +5,7 @@ import (
 	"log"
 )
 
+// 状态模式
 func main() {
 	vendingMachine := newVendingMachine(1, 10)
 

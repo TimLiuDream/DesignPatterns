@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 模版方法模式
 func main() {
 	smsOTP := &Sms{}
 	o := Otp{
